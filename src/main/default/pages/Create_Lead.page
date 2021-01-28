@@ -1,0 +1,6 @@
+<apex:page standardController="Lead" >
+<apex:form >
+    <apex:sectionHeader subtitle="New Lead" title="Lead Edit" />
+    <apex:pageMessages escape="false"></apex:pageMessages>
+    </apex:form>
+</apex:page>

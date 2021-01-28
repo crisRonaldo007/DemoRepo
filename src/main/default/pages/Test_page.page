@@ -1,0 +1,32 @@
+<apex:page controller="Reg">
+    <apex:form >
+    	<apex:pageBlock title="Registration Form" mode="edit">
+            <apex:pageBlockButtons location="both">
+                <apex:commandButton value="save" action="{!Save}" />
+            	<apex:commandButton value="cancel" action="{!Cancel}"/>
+            
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+            
+            </apex:pageBlockSection>
+            
+        
+        </apex:pageBlock>
+    </apex:form>
+    
+    
+    
+    
+    
+  <!--  <h1>
+        Welcome to the world!
+        
+    </h1>
+    <apex:pageBlock title="The Page block title comes here">
+        <apex:pageBlockSection title="The Section Title">
+            This is a page block component with a section.
+            {!User.FirstName} {!User.LastName}
+        </apex:pageBlockSection>
+    
+    </apex:pageBlock>-->
+</apex:page>

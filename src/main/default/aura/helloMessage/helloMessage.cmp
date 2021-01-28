@@ -1,0 +1,8 @@
+<aura:component >
+    <aura:attribute name="message" type="String"/>
+    <p>{!'Hello! ' + v.message}</p>
+
+    <p> <c:helloMessage message="{!v.customMessage}"/> </p>
+
+	
+</aura:component>
